@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import {getUsers} from './userReducer';
+import {getUsers,getCurUser} from './userReducer';
 
-const rootReducer=combineReducers({getUsers});
+const rootReducer=combineReducers({getUsers,getCurUser});
 
 export default rootReducer;
